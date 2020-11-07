@@ -1,4 +1,17 @@
 <div class="wrapper">
-  <%= render "side_bar"%>
-  <%= render "main_chat"%>
+  <div class="side-bar">
+    <%= render "side_bar" %>
+    <ul>
+      <li class="top-side-bar"></li>
+      <li class="bottm-side-bar"></li>
+    </ul>
   </div>
+  <div class="chat">
+    <%= render "main_chat" %>
+    <ul>
+      <li class="top-chat"></li>
+      <li class="midl-chat"></li>
+      <li class="bottm-chat"></li>
+    </ul>
+  </div>
+</div>
